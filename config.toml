@@ -1,0 +1,4 @@
+baseURL = 'https://samizerouta.com/'
+languageCode = 'en-us'
+title = 'Sami Zerouta'
+theme = 'devise'
