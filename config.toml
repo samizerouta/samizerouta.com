@@ -2,3 +2,40 @@ baseURL = 'https://samizerouta.com/'
 languageCode = 'en-us'
 title = 'Sami Zerouta'
 theme = 'devise'
+relativeURLs = true
+enableEmoji = true
+googleAnalytics = ""
+enableRobotsTXT = true
+copyright = "&copy; Copyright Year, Sami Zerouta"
+
+# Main menu items
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = -110
+
+# Configuration Features
+[params]
+  description = "Sami Zerouta personal website"                         # Your meta description of the site
+  header_title = "Sami Zerouta"                                         # Your header title
+  header_subtitle = "Android Developer • Dashlane • Paris, France"      # Your header subtitle
+  home_image = "/images/me.jpg"                                         # Path to header image starting from the static directory
+  recent_posts = 5                                                      # Max amount of recent posts to show
+  [params.style]                                                        # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"                                     # Font Awesome icon class
+    href = "http://github.com/samizerouta"                              # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-1x"
+    href = "https://linkedin.com/in/samizerouta"
+  [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "https://twitter.com/samizerouta"
+  [[params.social]]
+    fa_icon = "fas fa-at fa-1x"
+    href = "sami@zerouta.com"
