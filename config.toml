@@ -6,7 +6,7 @@ relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "&copy; Copyright Year, Sami Zerouta"
+copyright = "&copy; Copyright 2022, Sami Zerouta"
 
 # Main menu items
 [menu]
@@ -23,7 +23,7 @@ copyright = "&copy; Copyright Year, Sami Zerouta"
   header_title = "Sami Zerouta"                                         # Your header title
   header_subtitle = "Android Developer • Dashlane • Paris, France"      # Your header subtitle
   home_image = "/images/me.jpg"                                         # Path to header image starting from the static directory
-  recent_posts = 5                                                      # Max amount of recent posts to show
+  recent_posts = 0                                                      # Max amount of recent posts to show
   [params.style]                                                        # CSS style overrides
     backgroundColor = "#f8f9fa"
     fontColor = "#212529"
@@ -38,4 +38,4 @@ copyright = "&copy; Copyright Year, Sami Zerouta"
     href = "https://twitter.com/samizerouta"
   [[params.social]]
     fa_icon = "fas fa-at fa-1x"
-    href = "sami@zerouta.com"
+    href = "mailto:sami@zerouta.com"
