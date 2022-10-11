@@ -1,29 +1,21 @@
-baseURL = 'https://samizerouta.com/'
-languageCode = 'en-us'
-title = 'Sami Zerouta'
-theme = 'devise'
+baseURL = "https://samizerouta.com/"
+languageCode = "en-us"
+title = "Sami Zerouta"
+theme = "devise"
 relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
 copyright = "&copy; Copyright 2022, Sami Zerouta"
 
-# Main menu items
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
-    weight = -110
-
 # Configuration Features
 [params]
-  description = "Sami Zerouta personal website"                         # Your meta description of the site
+  description = "Android Developer • Dashlane • Paris, France"                         # Your meta description of the site
   header_title = "Sami Zerouta"                                         # Your header title
   header_subtitle = "Android Developer • Dashlane • Paris, France"      # Your header subtitle
   home_image = "/images/me.jpg"                                         # Path to header image starting from the static directory
   recent_posts = 0                                                      # Max amount of recent posts to show
+  mainSections = ["about"]                                              # Main sections to include in recent posts
   [params.style]                                                        # CSS style overrides
     backgroundColor = "#f8f9fa"
     fontColor = "#212529"
